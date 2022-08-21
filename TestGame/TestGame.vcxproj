@@ -155,7 +155,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\TestGame.cpp" />
+    <ClCompile Include="src\Logic\game.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Logic\game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="raylib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="raylib.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
